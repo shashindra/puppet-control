@@ -1,0 +1,5 @@
+---
+profile::base::ntp_servers:
+ - ponnaya.0
+ - ponnaya.1
+ - ponnaya.2
