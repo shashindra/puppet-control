@@ -3,3 +3,10 @@ profile::base::ntp_servers:
  - ponnaya.0
  - ponnaya.1
  - ponnaya.2
+profile::nginx::vhosts:
+ - 'fqdn': 'shashiudawa2.mylabserver.com'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'shashiudawa2b.mylabserver.com'
+   'port': 80
+   'server_aliases': 'shashiudawa2b1.mylabserver.com'
