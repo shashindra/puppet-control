@@ -1,0 +1,12 @@
+---
+profile::base::ntp_servers:
+ - pakaya.0
+ - pakaya.1
+ - pakaya.2
+profile::nginx::vhosts:
+ - 'fqdn': 'shashiudawa5.mylabserver.com'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'shashiudawa5b.mylabserver.com'
+   'port': 80
+   'server_aliases': 'shashiudawa5b1.mylabserver.com'
